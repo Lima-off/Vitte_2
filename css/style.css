@@ -1,7 +1,63 @@
+body {
+    margin: 0;
+    font-family: 'Alumni Sans', sans-serif;
+    background-image: url(../images/back.jpg);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    max-width: 455px;
+    margin: 0 auto;
+    padding-bottom: 138px;
+    padding-top: 25px;
+    background-color: rgba(33, 33, 33, 0.7);
+}
+
 form {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    max-width: 300px;
-    margin: 0 auto;
+    align-items: center;
+}
+
+.input-item {
+    width: 290px;
+    height: 48px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    background-color: #96CCBF;
+    border: 0;
+}
+
+.input-item::placeholder {
+    text-align: center;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    color: #000000;
+}
+
+form > select {
+    width: 290px;
+    height: 48px;
+    text-align: center;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    background-color: #96CCBF;
+}
+
+.registration {
+    width: 350px;
+    height: 64px;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    background-color: #579195;
+    border: 0;
 }
