@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Alumni Sans', sans-serif;
-    background-image: url(../images/back.jpg);
+    background-image: url(../images/back.jpg); /* фоновое изображение */
     background-position: 50% 0;
     background-repeat: no-repeat;
 }
@@ -55,6 +55,7 @@ form > select {
 .registration {
     width: 350px;
     height: 64px;
+    margin-top: 40px;
     font-family: 'Alumni Sans', sans-serif;
     font-size: 30px;
     font-weight: 100;
