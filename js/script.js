@@ -1,3 +1,4 @@
+const tg = window.Telegram.WebApp;
 const myForm = document.querySelector("form");
 
 myForm.addEventListener("submit", (event) => {
@@ -22,4 +23,5 @@ myForm.addEventListener("submit", (event) => {
     myForm.querySelector("select[name='employment']").value = "";
 
     data = JSON.stringify(data);
+    tg.sendData(data);
 });
